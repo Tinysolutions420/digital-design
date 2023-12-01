@@ -21,7 +21,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  A=0;
+  A=!w;
   B=(W&&!X&&!Y&&!Z) || (!W&&X&&!Y&&!Z) || (W&&!X&&Y&&!Z) || (!W&&X&&Y&&!Z);
   C=(W&&X&&!Y&&!Z) || (!W&&!X&&Y&&!Z) || (W&&!X&&Y&&!Z) || (!W&&X&&Y&&!Z);
   D = (W&&X&&Y&&!Z)||(!W&&!X&&!Y&&Z);
